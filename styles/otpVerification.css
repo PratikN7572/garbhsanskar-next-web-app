@@ -1,0 +1,45 @@
+.otp_form_wrapper {
+  @apply pt-8 flex flex-col justify-evenly h-full max-w-md mx-auto;
+}
+#otp_form {
+  @apply flex flex-col gap-5 items-center
+        py-5 px-4 rounded-3xl bg-white;
+  box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+    0px 0px 0px 2px rgb(255 255 255 / 70%);
+}
+
+#otp_form p {
+  @apply mb-3;
+}
+
+.phoneNumber_control {
+  @apply rounded-lg w-full h-10 flex items-center justify-end;
+  box-shadow: inset 0px 1px 7px rgb(0 0 0 / 8%),
+    inset -10px 0px 12px rgb(255 255 255);
+}
+
+.prev_btn {
+  @apply rounded-lg w-10 aspect-square grid place-content-center absolute top-0 left-0 translate-x-1/2 translate-y-1/2;
+  box-shadow: inset 1px 2px 7px rgb(0 0 0 / 7%),
+    inset -18px 0px 12px rgb(255 255 255);
+}
+
+.phone_number_field_wrapper {
+  @apply w-full h-10 flex items-center justify-between;
+}
+
+.otp_field_input {
+  @apply w-full h-full text-center rounded-md overflow-hidden;
+  box-shadow: inset 0px 1px 7px rgb(0 0 0 / 7%),
+    inset -10px 0px 12px rgb(255 255 255);
+}
+
+.otp_field_input:focus-visible {
+  @apply border-2 border-solid shadow-none border-primary-pink  rounded-lg;
+}
+
+.otp_reset_btn {
+  @apply place-self-end w-24 h-8 bg-white rounded-full text-xs text-black;
+  box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+    0px 0px 0px 3px rgb(255 255 255 / 70%);
+}

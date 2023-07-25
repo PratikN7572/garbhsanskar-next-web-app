@@ -1,0 +1,46 @@
+.preg_status_section {
+  @apply relative mx-auto h-full;
+}
+.preg_status_container {
+  @apply flex flex-col gap-10 justify-around items-center py-8 px-6 max-w-xl m-auto h-full w-full;
+}
+.preg_status {
+  @apply grid place-content-center rounded-3xl w-full max-w-[200px] aspect-square text-center;
+  box-shadow: inset 2px 2px 7px rgb(0 0 0 / 30%), inset 120px 0px 20px #e44672;
+}
+.preg_status_row {
+  @apply flex justify-between w-full gap-5 text-white font-semibold tracking-widest;
+}
+.prev_btn {
+  @apply rounded-lg w-10 aspect-square grid place-content-center absolute top-0 left-0 translate-x-1/2 translate-y-1/2;
+  box-shadow: inset 1px 2px 7px rgb(0 0 0 / 7%),
+    inset -18px 0px 12px rgb(255 255 255);
+}
+.close_btn {
+}
+#date_picker {
+  background: none !important;
+}
+.calender_wrapper {
+  @apply border p-5 py-3 relative rounded-2xl bg-white max-w-[350px] m-auto flex flex-col items-center;
+  box-shadow: 0px 0px 3px -1px rgb(10 99 162 / 16%),
+    4px 1px 5px 6px rgb(0 0 0 / 10%);
+}
+@media screen and (min-width: 375px) {
+  .preg_status {
+    box-shadow: inset 2px 2px 7px rgb(0 0 0 / 30%), inset 147px 0px 23px #e44672;
+  }
+}
+@media screen and (min-width: 425px) {
+  .preg_status {
+    box-shadow: inset 2px 2px 7px rgb(0 0 0 / 30%), inset 171px 0px 23px #e44672;
+  }
+}
+@media screen and (min-width: 768px) {
+  .preg_status {
+    box-shadow: inset 2px 2px 7px rgb(0 0 0 / 30%), inset 195px 0px 23px #e44672;
+  }
+  .preg_status_section {
+    @apply !pb-0;
+  }
+}

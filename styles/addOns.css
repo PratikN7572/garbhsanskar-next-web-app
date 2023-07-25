@@ -1,0 +1,17 @@
+.addOns_tab-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 32px;
+  grid-row-gap: 30px;
+  place-content: center;
+  padding: 0px 16px 0px 16px;
+}
+
+.lock_icon_badge {
+  @apply px-2 py-1 flex items-center gap-1 rounded-full opacity-50 bg-primary-pink absolute top-0 right-0 z-0;
+}
+
+.lock_icon g {
+  fill: white;
+}

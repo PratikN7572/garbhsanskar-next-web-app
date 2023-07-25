@@ -1,0 +1,30 @@
+.form_layout_wrapper {
+  @apply flex flex-col items-center
+    py-5 px-4 gap-3 rounded-3xl m-auto bg-white;
+  box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+    5px 3px 11px -2px rgb(0 0 0 / 20%);
+
+  & #login_form p {
+    @apply my-2;
+  }
+  input {
+    @apply bg-transparent;
+  }
+
+  input:focus-visible {
+    @apply outline-none;
+  }
+
+  .mobile_number_field_wrapper {
+    @apply w-full h-10 flex items-center justify-between;
+  }
+  .form_control {
+    @apply rounded-lg w-full h-10;
+    box-shadow: inset 0px 1px 7px rgb(0 0 0 / 7%),
+      inset -10px 0px 12px rgb(255 255 255);
+  }
+
+  .form_control:nth-child(2) {
+    @apply w-1/6 left-0 text-center p-0 text-primary-pink shadow-none bg-transparent border-none;
+  }
+}

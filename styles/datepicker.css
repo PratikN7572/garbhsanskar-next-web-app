@@ -1,0 +1,27 @@
+
+.calenderElement,
+.rdrMonthAndYearWrapper,
+.rdrMonths,
+.rdrMonth {
+  @apply !w-full;
+}
+.rdrDayNumber span {
+  @apply !text-primary-pink;
+}
+
+.rdrSelected {
+  @apply !bg-primary-pink;
+}
+.rdrSelected ~ .rdrDayNumber span {
+  @apply !text-white;
+}
+
+.rdrCalendarWrapper {
+  @apply max-w-xs;
+}
+
+.rdrMonthAndYearPickers select:hover {
+  background-color: #e44672 !important  ;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,28 @@
+#otp_popUp dialog {
+  @apply w-[98%] max-h-fit rounded-2xl py-6 px-2 max-w-md;
+}
+.pop-up_heading {
+  @apply text-base text-center font-semibold mb-4 text-primary-pink;
+}
+.otp-util {
+  @apply flex justify-between items-center mb-6;
+}
+
+.otp_label,
+strong {
+  @apply text-[11px];
+}
+
+.otp_btn {
+  box-shadow: inset 1px 1px 2px rgb(0 0 0 / 30%), inset 132px 0px 26px #e44672;
+}
+.close_btn {
+  @apply text-end rounded-lg w-8 aspect-square grid place-content-center;
+  box-shadow: inset 1px 2px 7px rgb(0 0 0 / 7%),
+    inset -18px 0px 12px rgb(255 255 255);
+}
+/* @media screen and (min-width: 111px) {
+  dialog {
+  @apply w-3/4 max-h-fit rounded-2xl py-6;
+}
+} */

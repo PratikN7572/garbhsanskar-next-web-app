@@ -1,0 +1,24 @@
+.navigation_icon {
+  & svg {
+    @apply mx-auto w-5 h-8 aspect-square;
+  }
+}
+
+.navigation_icon:nth-child(3) {
+  @apply !bg-black w-10;
+}
+.clicked {
+  & svg {
+    fill: #e44672;
+
+    & g {
+      fill: #e44672;
+    }
+  }
+  .list_item_title {
+    @apply hidden;
+  }
+}
+.list_item_title {
+  @apply text-[10px] xs:text-xs;
+}

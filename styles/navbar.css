@@ -1,0 +1,23 @@
+.auth_navigation {
+  @apply w-full h-full;
+
+  & ul {
+    @apply w-full h-full flex items-center justify-between;
+
+    & li:active svg {
+      @apply scale-x-125 transition-all;
+    }
+
+    & .home_icon {
+      @apply w-7 aspect-square rounded-full;
+      fill: white;
+    }
+    & .list_item {
+      @apply text-center;
+    }
+
+    & .list_item:nth-child(3) .navigation_icon {
+      @apply w-12 aspect-square grid place-content-center rounded-full bg-light-gray;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.header_wrapper {
+  @apply w-full mx-auto h-20 items-center px-4 pt-4 pb-2 flex justify-between sticky top-0 z-50 bg-white;
+  box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+    2px -1px 3px -1px rgb(255 255 255 / 70%);
+
+  .user_subscription_util {
+    @apply flex items-end gap-3;
+  }
+
+  .subscription_status {
+    @apply flex bg-primary-pink text-white text-[8px] xs:text-[10px] text-center font-bold px-1 uppercase rounded-lg;
+  }
+
+  .subscribed {
+    @apply bg-green-500 rounded-md p-1;
+  }
+
+  .avatar {
+    @apply w-10 aspect-square mx-auto rounded-full mb-1;
+  }
+
+  .updates_utils {
+    @apply flex items-center gap-4;
+  }
+
+  .notification {
+    @apply flex flex-col items-center justify-between relative;
+  }
+
+  .ringing_bell_icon {
+    @apply mx-auto w-10 mb-1 shadow-base grid place-content-center aspect-square rounded-full bg-white;
+  }
+
+  .title {
+    @apply text-primary-pink text-xs text-center;
+  }
+
+  .nav_text {
+    @apply text-xs flex-1 text-left capitalize;
+  }
+
+  .custom_fig g {
+    fill: #e44672;
+  }
+}

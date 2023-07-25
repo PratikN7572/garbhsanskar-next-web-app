@@ -1,0 +1,72 @@
+#sidenav-open {
+  @apply h-screen overflow-y-hidden;
+  --easeOutExpo: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration: 0.6s;
+  width: 100%;
+  display: grid;
+  grid-template-columns: [nav] 2fr [escape] 1fr;
+
+  position: absolute;
+  top: 0;
+  max-height: 100vh;
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+
+  visibility: hidden; /* not keyboard accessible when closed */
+  transform: translateX(-110vw);
+  will-change: transform;
+  transition: transform var(--duration) var(--easeOutExpo),
+    visibility 0s linear var(--duration);
+
+  &:target {
+    visibility: visible;
+    transform: translateX(0);
+    transition: transform var(--duration) var(--easeOutExpo);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    --duration: 1ms;
+  }
+  & nav {
+    @apply h-screen overflow-hidden flex flex-col bg-white justify-around shadow-dark;
+    & ul {
+      @apply flex-[0.8] flex flex-col justify-between;
+      & li {
+        @apply flex;
+
+        & .header__link {
+          @apply flex-[0.8];
+        }
+
+        & > span {
+          & svg {
+            @apply stroke-primary-pink fill-white;
+
+            & g {
+              @apply stroke-primary-pink fill-primary-pink;
+            }
+          }
+        }
+      }
+    }
+  }
+  & > a {
+    @apply flex-[0.2] bg-black opacity-30;
+  }
+}
+
+#sidenav-button,
+#sidenav-close {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  touch-action: manipulation;
+
+  /* @media (min-width: 540px) {
+    display: none;
+  } */
+}
+
+/* @media screen and (min-width: ) {
+  
+} */

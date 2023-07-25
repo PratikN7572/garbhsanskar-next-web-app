@@ -1,0 +1,14 @@
+.activity_tab {
+  @apply text-center w-full mt-4 py-3;
+  box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+    5px 4px 7px 3px rgb(255 255 255 / 70%);
+}
+.activities_tab-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  place-content: center;
+  width: 100%;
+}

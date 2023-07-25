@@ -1,0 +1,54 @@
+
+
+@media only screen and (max-width: 320px) {
+    .tool_card {
+        @apply flex flex-col aspect-square items-center justify-between rounded-xl shadow-base px-1 py-2 w-5/6 mx-auto gap-1;
+    }
+    .tool_link{
+        @apply h-fit;
+    }
+    
+    .tool_card-container {
+        @apply w-full flex justify-between items-center;
+    }
+    
+    
+    .task_title {
+        @apply  font-extralight leading-3 text-[0.55rem] ;
+    }
+    
+    .right_text {
+        @apply  flex flex-col items-center text-[0.55rem] max-w-fit;
+    }
+    .tool_card_image {
+        @apply w-8
+    }
+    .head_title{
+        @apply text-center text-sm;
+    }
+    .title {
+        @apply text-[0.75rem] leading-3 font-bold text-center;
+    }
+
+}
+@media only screen and (min-width: 425px) {
+    .tool_card {
+        @apply flex flex-col aspect-square items-center justify-between rounded-xl shadow-base px-3 py-2 w-5/6 mx-auto gap-3;
+    }
+    
+    .tool_card-container {
+        @apply w-full flex justify-between items-center;
+    }
+    
+    .left_text {
+        @apply flex flex-col items-start h-full;
+    }
+    
+    .task_title {
+        @apply  font-extralight text-sm ;
+    }
+    
+    .right_text {
+        @apply  flex flex-col items-start h-full max-w-fit;
+    }
+}

@@ -1,0 +1,4 @@
+.btn_primary {
+  @apply w-14 h-14 mx-auto border-none rounded-full text-white font-semibold text-sm bg-primary-pink;
+  box-shadow: inset 1px 1px 2px rgb(0 0 0 / 30%), inset 61px 0px 26px #e44672;
+}

@@ -1,0 +1,60 @@
+.home_modal > dialog {
+    @apply w-5/6 h-5/6 max-w-4xl overflow-hidden;
+  }
+  .baby_qualities_container {
+    @apply w-full h-full flex flex-col items-center justify-between;
+  }
+  .modal_heading {
+    @apply text-[#e44672] text-center font-extrabold;
+  }
+  
+  .qualities_wrapper {
+    @apply overflow-x-scroll  w-full !scroll-smooth overflow-y-hidden;
+  }
+  
+  .qualities_selection {
+    @apply px-2 py-3 flex w-full items-center gap-3;
+  }
+  
+  .quality {
+    @apply text-xs px-2 min-w-fit h-12 grid place-content-center  rounded-lg font-extrabold;
+    box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+      0px 0px 1px 2px rgb(255 255 255 / 70%);
+  }
+  
+  .selection_ratio_bg {
+    @apply relative w-52 h-52 flex items-center max-w-[250px] justify-center aspect-square mx-auto rounded-full;
+  
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 15%,
+      rgba(169, 169, 169, 1) 100%
+    );
+  
+    box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+      0px 0px 1px 2px rgb(255 255 255 / 70%);
+  }
+  
+  .selection_ratio {
+    @apply absolute w-4/5 aspect-square rounded-full grid place-content-center;
+    background: rgb(255, 255, 255);
+    
+  }
+  /* Track */
+  .qualities_wrapper::-webkit-scrollbar {
+    height: 3px;
+    width: 40px;
+  }
+  
+  /* Handle */
+  .qualities_wrapper::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  .qualities_wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  

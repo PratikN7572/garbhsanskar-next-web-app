@@ -1,0 +1,4 @@
+details>summary{
+    line-height: 1.583em;
+    @apply flex justify-between items-center rounded-md;
+}

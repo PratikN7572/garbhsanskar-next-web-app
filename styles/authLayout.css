@@ -1,0 +1,16 @@
+#auth_layout {
+  @apply h-[90vh];
+  .auth_layout_container {
+    @apply relative px-4 py-2 xl:p-0 w-full h-full sm:max-w-lg flex flex-col items-center justify-between mx-auto bg-transparent;
+  }
+  .auth_layout__header {
+    @apply text-center sm:pt-20 flex flex-col gap-4 items-center;
+  }
+
+  .auth_layout__header h1 {
+    @apply m-0 text-sm tracking-wider;
+  }
+  .auth_footer_layout {
+    @apply text-[10px] text-center tracking-wide text-gray-600 opacity-70;
+  }
+}

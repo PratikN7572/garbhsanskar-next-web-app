@@ -1,0 +1,5 @@
+.auth_navigation_section {
+  @apply sticky bg-white bottom-0 w-full h-16 px-3 py-4 max-w-md mx-auto;
+  box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
+    2px -1px 0px -1px rgb(255 255 255 / 70%);
+}
