@@ -39,7 +39,7 @@ const navigations = [
     id: 5,
     element: <Chat />,
     slug: "chat",
-    href: "/dasbhboard/chat",
+    href: "/dashboard/chat",
   },
 ];
 const Footer = () => {
