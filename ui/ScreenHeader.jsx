@@ -17,7 +17,7 @@ const ScreenHeader = () => {
   return (
     <header id="planner_banner">
       {state?.data?.user_type  === 'pregnant' && <HomeBanner />}
-      {/* {state?.data?.user_type === 'planner' && <div
+      {state?.data?.user_type === 'planner' && <div
         className="overflow-hidden mx-2 h-24 rounded-md relative shadow-dark"
         id="quiz_image"
       >
@@ -28,7 +28,7 @@ const ScreenHeader = () => {
           fill
           sizes="(min-width:280px) 240px"
         />
-      </div>} */}
+      </div>}
       <PackageDay />
       {state?.data?.user_type === 'pregnant' && <FetusStatus/>}
     </header>
