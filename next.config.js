@@ -21,7 +21,7 @@ const nextConfig = {
       return config;
     },
     images: {
-      domains: ["happygs.garbhsanskarguru.com","192.168.29.162"],
+      domains: ["happygs.garbhsanskarguru.com","192.168.29.162", 'images.unsplash.com'],
       formats: ["image/avif", "image/webp"],
     },
     

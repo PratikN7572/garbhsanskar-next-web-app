@@ -71,7 +71,7 @@ const DashboardLayout = ({ children }) => {
               Dear mom
             </h1>
             <p className="text-center text-base">
-              Your baby growth may differ from the estimates we profvide, and
+              Your baby growth may differ from the estimates we provide, and
               that is normal. Trust the journey!
             </p>
             <form method="dialog">
