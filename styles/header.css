@@ -1,22 +1,41 @@
 .header_wrapper {
-  @apply w-full mx-auto h-20 items-center px-4 pt-4 pb-2 flex justify-between sticky top-0 z-50 bg-white;
-  box-shadow: 2px 2px 8px 1px rgb(10 99 169 / 16%),
-    2px -1px 3px -1px rgb(255 255 255 / 70%);
+  /* Header Background */
+
+  background: #f1f1f1;
+  box-shadow: 0px 7px 12px #dddddd, inset 0px -7px 9px #ebebeb;
+  @apply w-full mx-auto h-28 items-center p-3 flex justify-between sticky top-0 z-50;
 
   .user_subscription_util {
     @apply flex items-end gap-3;
   }
 
   .subscription_status {
+    display: none !important;
     @apply flex bg-primary-pink text-white text-[8px] xs:text-[10px] text-center font-bold px-1 uppercase rounded-lg;
   }
 
   .subscribed {
     @apply bg-green-500 rounded-md p-1;
   }
+  .circular_shadow_wrapper {
+    /* CIrcle BG */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
 
+    background: #f1f1f1;
+    box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.87),
+      4px 4px 4px rgba(220, 220, 220, 0.74), inset -2px -2px 2px #e2e2e2,
+      inset 2px 2px 2px #fefefe;
+    border-radius: 29px;
+    padding: 0.5rem;
+  }
   .avatar {
-    @apply w-10 aspect-square mx-auto rounded-full mb-1;
+    width: 46px;
+    height: 46px;
+    border-radius: 43.02px;
   }
 
   .updates_utils {
@@ -24,15 +43,40 @@
   }
 
   .notification {
-    @apply flex flex-col items-center justify-between relative;
+    @apply flex flex-col items-center justify-between relative gap-1;
+
+    .notification_count {
+      width: 22px;
+      height: 22px;
+
+      background: #5faaf8;
+      border-radius: 100%;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 14px;
+      /* identical to box height */
+      text-align: center;
+
+      color: #ffffff;
+    }
   }
 
   .ringing_bell_icon {
-    @apply mx-auto w-10 mb-1 shadow-base grid place-content-center aspect-square rounded-full bg-white;
+    @apply m-0 w-full max-w-[3.5rem]  aspect-square rounded-full;
   }
 
   .title {
-    @apply text-primary-pink text-xs text-center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 14px;
+    text-align: center;
+    color: #e44672;
+    text-transform: capitalize;
   }
 
   .nav_text {

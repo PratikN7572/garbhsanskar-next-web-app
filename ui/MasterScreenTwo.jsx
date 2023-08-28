@@ -34,7 +34,7 @@ const MasterScreenTwo = ({children}) => {
         <div className="video_list_container hide-scrollbar overflow-y-scroll" style={{height: 'calc(100% - 270px)'}}>
                   <div className="video_list p-5 flex flex-col gap-3">
                       {
-                          [...Array(10)].map(x => <div className="video_detials flex justify-between rounded-md items-start px-3 py-2 bg-white shadow-base">
+                          [...Array(10)].map((x,i) => <div key={i} className="video_detials flex justify-between rounded-md items-start px-3 py-2 bg-white shadow-base">
               <div className="video_thumbnail relative w-20 rounded-sm overflow-hidden aspect-square">
                 <Image
                   src="https://images.unsplash.com/photo-1690177930804-a144aa9941bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80"

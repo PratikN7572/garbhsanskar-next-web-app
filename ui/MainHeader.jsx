@@ -4,7 +4,7 @@ import "@/styles/header.css";
 import StoryAnimation from "./StoryAnimation";
 import Subscribe from "./Subscribe";
 import Notification from "./Notification";
-import Link from 'next/link'
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -18,25 +18,32 @@ const Header = () => {
           id="sidenav-button"
           role="link"
         >
-          <div className="avatar overflow-hidden relative">
-            <Image
-              src="/images/profile_img.webp"
-              alt="profile of the registered user"
-              fill
-              loading="eager"
-              priority
-            />
+          <div className="circular_shadow_wrapper">
+            <div className="avatar overflow-hidden relative">
+              <Image
+                src="/images/profile_img.webp"
+                alt="profile of the registered user"
+                fill
+                loading="eager"
+                priority
+              />
+            </div>
           </div>
           <p className="title">profile</p>
         </a>
-        <Subscribe/>
+        <Subscribe />
       </div>
       <div className="updates_utils">
-        <Link href="/tips" className="daily_tip_icon" role="link" aria-label="today's tips">
+        <Link
+          href="/tips"
+          className="flex flex-col gap-1"
+          role="link"
+          aria-label="today's tips"
+        >
           <StoryAnimation />
-          <p className="title">today&apos;s tips</p>
+          <p className="title">today&apos;s tip</p>
         </Link>
-        <Notification/>
+        <Notification />
       </div>
     </header>
   );

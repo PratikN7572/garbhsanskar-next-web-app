@@ -12,7 +12,7 @@ const YogaDialog = () => {
       <InfoButton onClick={openYogaInfo} />
       <dialog
         id="yoga_info"
-        className="max-w-sm h-1/2 rounded-lg pb-0 overflow-hidden"
+        className="max-w-sm h-1/2 rounded-lg pb-0 overflow-hidden p-4"
       >
         <h1 className="font-bold text-2xl mb-2">Help</h1>
         <div
@@ -23,7 +23,7 @@ const YogaDialog = () => {
           <p>
             This app section offers daily yoga and pranayama exercises tailored
             to your specific pregnancy day. The yoga and pranayama routines will
-            vary based on your pregnancy day and trimester. However, it's
+            vary based on your pregnancy day and trimester. However, it&apos;s
             important to note that there are only a limited number of safe and
             appropriate yoga and pranayama exercises during pregnancy so you may
             encounter some repetition in the activities provided.
@@ -63,7 +63,7 @@ const YogaDialog = () => {
               practice pranayama. If bed rest is suggested, refrain from
               practicing yoga, but pranayama can be done.
             </li>
-            <li>If you have a low-lying placenta, it's best to avoid yoga.</li>
+            <li>If you have a low-lying placenta, it&apos;s best to avoid yoga.</li>
           </ul>
         </div>
         <div className="close-btn sticky bottom-0 bg-white flex justify-center items-center py-3">
