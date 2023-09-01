@@ -1,0 +1,280 @@
+/* All Activities */
+
+ .Autolayout {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+position: absolute;
+width: 388px;
+height: 204px;
+left: 20px;
+top: 1751px;
+}
+
+
+.heading {
+
+width: 388px;
+height: 51px;
+
+background: #E44672;
+box-shadow: 3px 3px 12px #DDDDDD, inset 6px 6px 6px #F5B2C5;
+}
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 4290 */
+
+width: 388px;
+height: 153px;
+
+background: #F1F1F1;
+box-shadow: 5px 5px 12px rgba(221, 221, 221, 0.99), inset -20px -20px 30px #EBEBEB, inset 10px 10px 10px #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* All Activities */
+
+position: absolute;
+width: 160px;
+height: 35px;
+left: calc(50% - 160px/2);
+top: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Mask group */
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 0px;
+top: 0px;
+
+
+
+/* lamp 4 */
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 0px;
+top: 0px;
+
+background: url(lamp.png);
+
+
+/* Rectangle 4354 */
+
+position: absolute;
+width: 54.09px;
+height: 54.09px;
+left: -7.96px;
+top: -6.36px;
+
+background: #FFFFFF;
+
+
+/* All Activities */
+
+position: absolute;
+width: 112px;
+height: 19px;
+left: 48px;
+top: 8px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+
+/* Frame 238035 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 362px;
+height: 121px;
+left: calc(50% - 362px/2);
+top: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Frame 238033 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 9px;
+
+width: 362px;
+height: 45px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* right-arrow 1 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: url(right-arrow.png);
+
+
+/* Rectangle 4355 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #E44672;
+
+
+/* The activities are meticulously customized based on your due date, interests, and needs. So you'll never run out of fresh ideas and inspiration. */
+
+width: 333px;
+height: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+
+color: #939393;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 238034 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 9px;
+
+width: 362px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* right-arrow 1 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: url(right-arrow.png);
+
+
+/* Rectangle 4355 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #E44672;
+
+
+/* While other apps may offer generic activity suggestions, ours are tailored to your exact pregnancy journey. Experience pregnancy wellness like never before through our personalized activity feed. */
+
+width: 333px;
+height: 60px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+
+color: #939393;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

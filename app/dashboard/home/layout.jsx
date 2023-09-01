@@ -25,9 +25,9 @@ const DashboardLayout = ({ children }) => {
 
   const getUserInfo = useCallback(async () => {
     const data = JSON.parse(localStorage?.getItem("user"));
-    if (!data?.token) {
-      router.push("/auth/login");
-    }
+    // if (!data?.token) {
+    //   router.push("/auth/login");
+    // }
     const info = await getUserInfoData(data?.token, data?.device_id);
     handleInfoStatus(info?.status, router, info?.message);
     updateUserInfo(info?.data);
