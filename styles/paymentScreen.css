@@ -1,0 +1,80 @@
+/* "Join Our Amazing Mission for a Happy and Healthy Child!" */
+
+.payment_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #808080;
+    padding: 1rem;
+}
+
+/* Rectangle 4290 */
+
+.payment_wrapper{
+    background: #F1F1F1;
+    width: fit-content;
+    box-shadow: 5px 5px 12px rgba(221, 221, 221, 0.99), inset -20px -20px 30px #EBEBEB, inset 10px 10px 10px #FFFFFF;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* "What's more important - a few fancy coffees or your baby's future? Choose wisely." */
+
+.payment_descripiton{
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E44672;
+}
+
+/* Rectangle 4452 */
+
+.payment_Image1{
+  
+    /* background: url(image.png); */
+    border-radius: 5px;
+}
+
+/* Rectangle 4453 */
+
+.payment_Image2{
+  
+    /* background: url(image.png); */
+    border-radius: 5px;
+}
+
+/* What Our Users Say */
+.payment_second_descripiton{
+    width: fit-content;
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

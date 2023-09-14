@@ -1,0 +1,41 @@
+/* Articles */
+.articles_wrapper{
+    width: fit-content;
+    padding: 1rem;
+    background: #F1F1F1;
+    box-shadow: inset 2px 2px 4px #FFFFFF, inset -2px -2px 4px rgba(191, 184, 184, 0.25);
+    border-radius: 5px;
+}
+
+/* Rectangle 4378 */
+
+.articles_image{
+    border-radius: 5px;
+}
+
+/* "A Journey of Empowerment: Maria's Remarkable Pregnancy" */
+.articles_title{
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #E44672;
+}
+
+/* From the moment Maria downloaded the app, she felt an instant connection. The warm welcome and.... */
+.articles_descripition{
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    
+}
+
+
+
