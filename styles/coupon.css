@@ -1,0 +1,89 @@
+/* Coupen 1 */
+
+/* Subtract */
+
+
+.coupon_wrapper{
+    
+    background: #FBFBFB;
+    border-radius: 8px;
+}
+
+
+
+/* Rectangle 5 */
+
+/* background: #C4C4C4;
+border-radius: 8px; */
+
+
+/* Ellipse 2 */
+
+.coupon_ellipseleft{
+    background: #C4C4C4;
+   
+}
+
+/* Ellipse 3 */
+
+.coupon_ellipseright{
+    background: #C4C4C4;
+}
+
+
+
+/* Vector 1 */
+
+.coupon_vector{
+    border: 2px dashed rgba(102, 102, 102, 0.2);
+}
+
+
+
+
+/* TAP TO APPLAY */
+
+
+.coupon_tap_applay{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E44672;
+}
+
+
+/* GARBHGURU2023 */
+.coupon_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+}
+
+/* FLAT 25% OFF */
+
+.coupon_off{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 127.19%;
+    /* or 24px */
+
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+/* Frame 238049 */
+
+.applycoupon_wrapper{
+    width: fit-content;
+    padding: 1rem;
+    background: #F1F1F1;
+    box-shadow: inset -6px -6px 6px rgba(255, 255, 255, 0.81), inset 6px 6px 6px #E4E4E4;
+    border-radius: 8px;
+
+}
+/* Rectangle 23695 */
+
+.applycoupon_content{
+    padding: 1rem;
+    display: flex;
+    gap: 160px;
+    background: #F1F1F1;
+    box-shadow: inset -5px -5px 3px rgba(255, 255, 255, 0.36), inset 5px 5px 3px rgba(205, 205, 205, 0.28);
+    border-radius: 5px;
+}
+
+/* Enter Coupon Code */
+
+.applycoupon_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: #B4B4B4;
+}
+
+/* Apply */
+
+.applycoupon_button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    
+    color: #5FAAF8;
+}
+
+
