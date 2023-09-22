@@ -1,0 +1,68 @@
+/* "Empowering Your Pregnancy Journey, Step by Glowing Step" */
+
+.language_title{
+    padding-top: 1rem;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E44672;
+}
+/* “Choose Your Preferred Language, and Feel Free to Adjust It Anytime to Suit Your Journey." */
+
+
+.language_desc{
+    padding-top: 6rem;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+
+
+/* Rectangle 4376 */
+.language_wrapper{
+    padding: 1rem;
+    background: #F1F1F1;
+    box-shadow: inset 2px 2px 4px #FFFFFF, inset -2px -2px 4px rgba(191, 184, 184, 0.25);
+    border-radius: 5px;
+}
+
+/* ગુજરાતી */
+
+
+.language_select{
+    margin-left: 2.5rem;
+    width: fit-content;
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+
+
+
+
+
