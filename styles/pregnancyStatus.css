@@ -1,0 +1,135 @@
+/* "Your Pregnancy Choice" */
+.pregnancy_choice{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5.5rem;
+    color: #000000;
+}
+
+/* Rectangle 23714 */
+.pregnancy_card{
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    box-sizing: border-box;
+    background: #F1F1F1;
+    border: 1px solid #E44672;
+    border-radius: 5px;
+}
+
+/* Pregnant */
+
+.pregnancy_status{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+    color: #E44672;
+}
+
+/* Features and Benefits */
+
+
+.pregnancy_features{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 6.5rem;
+    color: #000000;
+    
+}
+
+/* Rectangle 23718 */
+
+.pregnancy_benefits{
+    padding: 1rem;
+    background: #F1F1F1;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.11), inset 3px 3px 4px #FFFFFF, inset -3px -3px 4px rgba(191, 184, 184, 0.25);
+    border-radius: 5px;
+}
+
+/* 5000+ Activities */
+
+.pregnancy_benefits_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #787878;
+}
+
+/* “Enter the Pregnancy Planner Experience, Where Every Moment is Enriched with Care, Knowledge, and Heartfelt Connections." */
+.pregnancy_desc{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #E44672;
+}
+
+
+/* Rectangle 23713 */
+
+
+.pregnancy_button{
+    padding: 0.5rem;
+    background: #E44672;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.13), inset 4px 4px 4px rgba(255, 255, 255, 0.24), inset -4px -4px 4px rgba(0, 0, 0, 0.22);
+    border-radius: 6px;
+    margin-left: 9rem;
+}
+
+/* Start Planning */
+.pregnancy_button_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

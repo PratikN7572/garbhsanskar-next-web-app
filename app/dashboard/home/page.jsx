@@ -15,6 +15,7 @@ import Payment from "@/ui/Payment";
 import Testimonial from "@/ui/Testimonial";
 import ApplyCoupon from "@/ui/ApplyCoupon";
 import LanguageSection from "@/ui/LanguageSection";
+import PregnancyStatus from "@/ui/PregnancyStatus";
 // const HomeModal = dynamic(()=>import('@/ui/HomeModal'))
 const ActivitiesTab = dynamic(() => import("@/ui/ActivitiesTab"), {
   ssr: false,
@@ -34,7 +35,8 @@ const Dashboard = () => {
      {/* <Schedule /> */}
      {/* <Payment firstTitle= { "Join Our Amazing Mission for a Happy and Healthy Child!"} cardtitle={ "What's more important - a few fancy coffees or your baby's future? Choose wisely."} secondtitle={"What Our Users Say"}/> */}
      {/* <ApplyCoupon /> */}
-     <LanguageSection />
+     {/* <LanguageSection /> */}
+     <PregnancyStatus />
     </>
   );
 };

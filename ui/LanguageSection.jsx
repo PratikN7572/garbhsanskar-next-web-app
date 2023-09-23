@@ -11,9 +11,7 @@ const LanguageSection = () => {
             <h4 className='language_desc'>“Choose Your Preferred Language, and Feel Free to Adjust It Anytime to Suit Your Journey."</h4>
             <div className='grid grid-cols-2 gap-1 justify-items-stretch pt-4'>
                 <Languages title="ગુજરાતી" /> 
-                <Languages title="ગુજરાતી" /> 
-                <Languages title="ગુજરાતી" /> 
-                <Languages title="ગુજરાતી" /> 
+                
             </div>
     </div>
   )
