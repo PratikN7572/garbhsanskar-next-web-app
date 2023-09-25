@@ -3,7 +3,7 @@ import '@/styles/pregnancyStatus.css';
 import Image from 'next/image';
 import PregnantImg from '@/public/images/Pregnant.png';
 import ActivitySvg from '@/public/icons/daily_activity.svg';
-const PregnancyStatus = () => {
+const PregnancyStatus = ({}) => {
   return (
     <div className='p-4'>
         <h4 className='pregnancy_choice'>"Your Pregnancy Choice"</h4>
