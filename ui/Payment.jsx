@@ -48,7 +48,7 @@ const Payment = ({firstTitle, cardtitle, secondtitle,}) => {
      </div>
      <div className='px-4'>
      <h3 className='payment_forth_descripition !px-0'>Core Benifits</h3>
-     <PaymentCoreBenifits title="Daily Activities" description={"Explore 3885 Practicable Activities for Baby's 4Q Development Through Daily 12 Engaging Sessions on Our Pregnancy App."}/>
+     <PaymentCoreBenifits />
      </div>
      <div className='px-4'>
       <h3 className='payment_fifth_descripition !px-0'>Complementary offers</h3>

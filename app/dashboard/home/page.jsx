@@ -33,10 +33,10 @@ const Dashboard = () => {
       <ActivityCard /> */}
      {/* <Activity activityDescription="Baby's message to mumma" activityType='Dear Mom' url='https://images.unsplash.com/photo-1542385151-efd9000785a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1378&q=100' /> */}
      {/* <Schedule /> */}
-     {/* <Payment firstTitle= { "Join Our Amazing Mission for a Happy and Healthy Child!"} cardtitle={ "What's more important - a few fancy coffees or your baby's future? Choose wisely."} secondtitle={"What Our Users Say"}/> */}
+     <Payment firstTitle= { "Join Our Amazing Mission for a Happy and Healthy Child!"} cardtitle={ "What's more important - a few fancy coffees or your baby's future? Choose wisely."} secondtitle={"What Our Users Say"}/>
      {/* <ApplyCoupon /> */}
      {/* <LanguageSection /> */}
-     <PregnancyStatus />
+     {/* <PregnancyStatus /> */}
     </>
   );
 };
