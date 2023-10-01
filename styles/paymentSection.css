@@ -1,0 +1,52 @@
+/* Payment Section */
+.paymentsection_wrapper{
+    background: #F1F1F1;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.55);
+}
+
+
+/* Rectangle 4261 */
+.paymentsection_content{
+    padding: 1rem;
+    background: #E56085;
+    box-shadow: inset 6px 6px 6px #FF84A6, inset -4px -4px 4px #CF436A;
+    border-radius: 13px;
+}
+
+
+
+/* Pay ₹3000 */
+.paymentsection_3000{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* ₹4000 */
+.paymentsection_4000{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+
+/* Line 257 */
+
+.paymentsection_line{
+    border: 2px solid #FFFFFF;
+}
+
+
+

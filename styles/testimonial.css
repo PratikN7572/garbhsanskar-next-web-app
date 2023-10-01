@@ -1,0 +1,101 @@
+.testimonial_wrapper{
+    width: fit-content;
+    padding: 1rem;
+    background: #F1F1F1;
+    box-shadow: inset 2px 2px 4px #FFFFFF, inset -2px -2px 4px rgba(191, 184, 184, 0.25);
+    border-radius: 5px;
+}
+
+
+
+/* "Empowering Daily Rituals" */
+
+.testimonial_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #E44672;
+    padding: 1rem;
+}
+
+
+.testimonial_descripition{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #909090;
+    padding: 1rem;
+}
+
+/* Polygon 14 */
+.testimonial_svg{
+    background: #FF7299;
+    border-radius: 5px;
+    transform: rotate(-180deg);
+}
+
+/* Ellipse 11 */
+
+.testimonial_ellipse_1{
+    background: #C4C4C4;
+    border: 1.5px solid #FF7299;
+}
+
+/* Ellipse 12 */
+.testimonial_ellipse_2{
+    background: #C4C4C4;
+    border: 1.5px solid #01BCC8;
+}
+
+/* Ellipse 15 */
+.testimonial_ellipse_3{
+    background:#C4C4C4;
+    border: 1.5px solid #67ADFF;
+}
+
+
+
+
+/* Ellipse 13 */
+.testimonial_ellipse_4{
+    background: #C4C4C4;
+    border: 1.5px solid #FFDD63;
+}
+
+/* Ellipse 14 */
+.testimonial_ellipse_4{
+    box-sizing: border-box;
+    background:  #C4C4C4;
+    border: 1.5px solid #59CBB1;
+}
+
+/* Jenifer */
+.testimonial_user_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 139.69%;
+    /* identical to box height, or 24px */
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

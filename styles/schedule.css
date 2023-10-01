@@ -1,0 +1,125 @@
+.schedule_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    padding: 1rem;
+    gap: 10px;
+    background: #F1F1F1;
+    box-shadow: 6px 6px 10px rgba(221, 221, 221, 0.74), inset -8px -8px 11px #EBEBEB, inset 8px 8px 18px #FFFFFF;
+    border-radius: 28px;
+    
+}
+.schedule_Banner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    padding: 1rem;
+    gap: 7px;
+    
+}
+
+.schedule_BookNow{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: -0.408px;
+    color: #797979;
+}
+
+.schedule_card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+    width: 348px;
+    height: 167.58px;
+}
+
+.schedule_image{
+    width: 348px;
+    height: 167.58px;
+    /* background: url(BannerImage.png); */
+}
+
+.schedule_Title{
+    position: absolute;
+    width: 170px;
+    height: 66.58px;
+    left: 24px;
+    top: 24px;
+
+    font-family: 'Tiro Gurmukhi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+    letter-spacing: -0.408px;
+    background: linear-gradient(114.54deg, #E44672 0%, rgba(228, 70, 114, 0.42) 89.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent;   */
+}
+
+.schedule_Planner{
+    position: absolute;
+    width: 106px;
+    height: 35.58px;
+    left: 24px;
+    top: 108px;
+    
+    font-family: 'Tiro Gurmukhi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.408px;
+    background: linear-gradient(114.54deg, #E44672 0%, rgba(228, 70, 114, 0.42) 89.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.schedule_Description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 10px;
+    gap: 8px;
+    
+    width: 348px;
+    height: 54px;
+}
+
+.schedule_Description1{
+    width: 330px;
+    height: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.408px;
+    color: #797979;
+}
+
+.schedule_Description2{
+    width: 342px;
+    height: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.408px;
+    color: #9E9E9E;
+}

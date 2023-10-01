@@ -1,0 +1,44 @@
+/* Rectangle 23696 */
+
+.paymentcorebenifits_wrapper{
+    padding: 1rem;
+    width: fit-content;
+    background: #F1F1F1;
+    box-shadow: inset -2px -2px 3px #CDCDCD, inset 2px 2px 3px rgba(255, 255, 255, 0.73);
+    border-radius: 6px;
+}
+
+/* Daily Activities */
+.paymentcorebenifits_title{
+    padding-bottom: 0.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125.19%;
+    /* or 23px */
+    color: #FF7299;
+}
+
+/* "Explore 3885 Practicable Activities for Baby's 4Q Development Through Daily 12 Engaging Sessions on Our Pregnancy App." */
+.paymentcorebenifits_description{
+    padding-bottom: 0.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 125.19%;
+    /* or 18px */
+    
+    color: #9F9F9F;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,185 @@
+/* "Join Our Amazing Mission for a Happy and Healthy Child!" */
+
+.payment_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #808080;
+    padding: 1rem;
+}
+
+/* Rectangle 4290 */
+
+.payment_wrapper{
+    background: #F1F1F1;
+    width: fit-content;
+    box-shadow: 5px 5px 12px rgba(221, 221, 221, 0.99), inset -20px -20px 30px #EBEBEB, inset 10px 10px 10px #FFFFFF;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* "What's more important - a few fancy coffees or your baby's future? Choose wisely." */
+
+.payment_descripiton{
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E44672;
+}
+
+/* Rectangle 4452 */
+
+.payment_Image1{
+  
+    /* background: url(image.png); */
+    border-radius: 5px;
+}
+
+/* Rectangle 4453 */
+
+.payment_Image2{
+  
+    /* background: url(image.png); */
+    border-radius: 5px;
+}
+
+/* What Our Users Say */
+.payment_second_descripiton{
+    width: fit-content;
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+/* Choose Your Plan */
+.payment_third_descripition{
+    width: fit-content;
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+/* Offers and Benefits */
+.payment_third_descripition{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+/* Apply Coupon  */
+
+
+
+/* Rectangle 23695 */
+
+
+.payment_apply_coupon{
+    padding: 1rem;
+    background: #F1F1F1;
+    box-shadow: inset -2px -2px 3px #CDCDCD, inset 2px 2px 3px rgba(255, 255, 255, 0.73);
+    border-radius: 5px;
+}
+
+
+
+/* Apply Coupon */
+.payment_apply_coupon_title{
+    display: flex;
+    text-align: center;
+    gap: 2.6rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    
+    color: #B4B4B4;
+}
+/* Core Benifits */
+
+
+.payment_forth_descripition{
+    padding: 1rem;
+    width: fit-content;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #000000;
+    
+}
+.payment_fifth_descripition{
+    /* Complementary offers */
+padding: 1rem;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+
+
+/* "Begin Your Journey to a Happy Child Today!" */
+
+.payment_sixth_descripition{
+padding: 1rem;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+
+color: #E44672;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
